@@ -194,7 +194,7 @@ public class Dispatcher implements Runnable {
     }
 
     public List<Lift> getLifts() {
-        return new ArrayList<>(lifts); // Возвращаем копию для безопасности
+        return new ArrayList<>(lifts);
     }
 
     public int getQueueSize() {
